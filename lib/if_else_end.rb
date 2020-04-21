@@ -1,3 +1,4 @@
 # Write your solution here
-current_second = Time.now.second
-if current_second 
+current_second = Time.now
+if (current_second / 2 == 0)
+  
